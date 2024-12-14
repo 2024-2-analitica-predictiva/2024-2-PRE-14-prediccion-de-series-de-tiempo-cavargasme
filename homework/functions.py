@@ -213,3 +213,4 @@ def remove_trend_and_cycle(df, yt_true_name="yt_true"):
     df[yt_true_name + "_d1d12"] = df[yt_true_name].diff(1).diff(12)
     return df
 
+#FIN
